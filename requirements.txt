@@ -1,0 +1,9 @@
+# NeMo is NOT listed here: this model needs AI4Bharat's NeMo 3.1.0 multisoftmax build.
+# Install it first (README, "Install"), then: pip install -r requirements.txt
+huggingface_hub>=0.23
+soundfile>=0.12
+numpy
+omegaconf
+torch
+torchaudio
+pytest>=7

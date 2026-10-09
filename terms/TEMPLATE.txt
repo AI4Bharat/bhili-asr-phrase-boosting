@@ -1,0 +1,22 @@
+# Bhili phrase-boosting term list
+#
+# One term or phrase per line. Lines starting with # are ignored.
+# Rules (see docs/WRITING_TERMS.md):
+#   1. Devanagari only, spelled the way farmers say it in Bhili.
+#   2. Acronyms letter by letter as spoken:  एच एन पी व्ही   (not HNPV)
+#   3. Numbers as words, not digits.
+#   4. Variants on separate lines:  कपाशी / कपाशीवर
+#   5. Only domain terms. No everyday words (हो, माहिती, पाणी, काय ...).
+#   6. 50-200 terms is a good size. Check it with scripts/check_terms.py.
+
+# --- Government schemes ---
+
+# --- Crops and varieties ---
+
+# --- Pests and diseases ---
+
+# --- Fertilisers, pesticides and other inputs ---
+
+# --- Farming practices and equipment ---
+
+# --- Places (districts, talukas, villages, mandis) ---

@@ -1,0 +1,28 @@
+# Example list: the 16 terms used in the 2026-10 evaluation (docs/RESULTS.md).
+# They came from field-test complaints, so treat their field results as a best case.
+
+# --- Government schemes ---
+पीएम किसान
+किसान
+सन्मान निधी
+
+# --- Crops ---
+भात
+भेंडी
+कपाशी
+कपाशीवर
+
+# --- Pests and diseases ---
+एच एन पी व्ही
+
+# --- Inputs and practices ---
+ग्लिरीसिडिया
+गिरीपुष्प
+ठिबक
+हिरव्या
+उगवून
+पाऊस
+पाण्याचे
+
+# --- Places ---
+जिल्हा

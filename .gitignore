@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+models/
+*.nemo
+outputs/
+*.wav
+!tests/data/*.wav
+preds*.jsonl
+report*.md

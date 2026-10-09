@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bhili-asr-phrase-boosting"
+version = "0.1.0"
+description = "Phrase boosting for the AI4Bharat Bhili ASR model (bhili-asr-nemotron-600m)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["huggingface_hub>=0.23", "soundfile>=0.12", "numpy", "omegaconf", "torch", "torchaudio"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["bhili_boost"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["model: needs the checkpoint and the NeMo multisoftmax build (skipped otherwise)"]
